@@ -5,8 +5,8 @@ use_frameworks!
 def shared_pods
     pod 'SwiftyBeaver'
     #pod 'OpenSSL-Apple', :podspec => 'https://www.project3851.com/podspecs/OpenSSL-Apple.podspec'
-    pod 'OpenSSL-Apple', :podspec => 'https://raw.githubusercontent.com/onetown/openssl-apple/refs/heads/master/openssl-apple.specs'
-    #pod 'OpenSSL-Apple' , :path => '../openssl-apple'
+    pod 'OpenSSL-Apple', :podspec => 'https://raw.githubusercontent.com/onetown/openssl-apple/refs/heads/master/OpenSSL-Apple.podspec'
+    #pod 'OpenSSL-Apple' , :path => '/Users/liangbo/development/onetown/openssl-apple'
 end
 
 abstract_target 'TunnelKit' do
